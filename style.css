@@ -1,0 +1,122 @@
+body {
+  font-family: 'Segoe UI', Tahoma;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 30px;
+  border-radius: 15px;
+  background: #f2f5f3;
+  box-shadow: 0px 10px 25px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #10651a;
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 28px;
+  letter-spacing: 0.5px;
+}
+
+label {
+  font-weight: bold;
+  display: flex;
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 28px;
+}
+
+#totalCbm {
+  width: 9%;
+  padding: 9px;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: right;
+  border-radius: 15px;
+  border: 2px solid #ffe148;
+  background: #fff0a4;
+  margin-bottom: 25px;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 20px;
+  border-collapse: separate;
+  border-spacing: 10px;          /* remove gaps */
+  margin-bottom: 20px;
+  border-radius: 20px; 
+  overflow: hidden;
+}
+
+th {
+  background-color: #10651a;
+  color: white;
+  padding: 5px;
+  font-size: 16px;
+  text-align: center;
+  border: none;
+  border-radius: 15;
+}
+
+td {
+  padding: 10px 10px;
+}
+
+.containerQty {
+  width: 100px; /* narrower */
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #10651a;
+  background: #e6f0e6;
+  font-size: 16px;
+}
+
+.containerType {
+  width: 100%; /* wider */
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #10651a;
+  background: #e6f0e6;
+  font-size: 16px;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  background: #10651a;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #0b3e0d;
+}
+
+.result-box {
+  margin-top: 20px;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  font-size: 16px;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+}
+button[type="button"] {
+  width: 15%;
+  padding: 14px;
+  background: #ffa2a2; /* gray for reset */
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 30px;
+  transition: background 0.5s ease;
+}
+
+button[type="button"]:hover {
+  background: #7d7d7d;
+}
